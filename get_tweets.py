@@ -1,5 +1,9 @@
 '''
-Initial Draft Code For Getting Tweets
+Authors: Daniel and Savhanna
+April 1, 2021
+
+get_tweets.py
+Draft Code For Getting Trending Tweets from Twitter and Gathering Tweets from Friends
 '''
 
 import tweepy
