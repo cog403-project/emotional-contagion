@@ -96,6 +96,8 @@ def get_friend_tweets(tweets, bound, tweet_required, following_limit):
         tweet_info['related_tweets'] = important_tweet
 
         tweets_related.append(tweet_info)
+        # Periodically save it
+        pickle.dump(tweets_related, open("temp.p", "ab"))
 
     # Make sure this object is available for future use
     pickle.dump(tweets_related, open("friend_tweets.p", "wb"))
