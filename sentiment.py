@@ -37,16 +37,16 @@ def get_related_tweet(tweets, end_time, time_bound):
     tweet_return = {}
 
     for user in tweets:
+        if user != 'user':
+            friend_tweets = tweets[user]
 
-        friend_tweets = tweets[user]
+            for tweet in friend_tweets:
 
-        for tweet in friend_tweets:
+                tweet_created = tweet.created_at
 
-            tweet_created = tweet.created_at
-
-            if end_time >= tweet_created >= lower_bound:
-                tweet_id = tweet.id
-                tweet_return[tweet_id] = tweet
+                if end_time >= tweet_created >= lower_bound:
+                    tweet_id = tweet.id
+                    tweet_return[tweet_id] = tweet
 
     return tweet_return
     
