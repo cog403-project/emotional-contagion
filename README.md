@@ -15,7 +15,7 @@ The data used in this project was gathered from [Twitter](https://developer.twit
 tweepy, 
 matplotlib.pyplot, 
 numpy, 
-scipy,  
+scipy, 
 sklearn
 
 ## Running
