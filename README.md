@@ -20,4 +20,6 @@ sklearn
 
 ## Running
 
-1. Run 
+1. Run get_tweet.py
+2. Run sentiment.py
+3. Generate model and prediction by running regression_models.ipynb
