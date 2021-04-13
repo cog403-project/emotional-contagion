@@ -20,6 +20,6 @@ sklearn
 
 ## Running
 
-1. Run get_tweet.py
-2. Run sentiment.py
+1. Run get_tweet.py to get all the tweets that we need to do the analysis
+2. Run sentiment.py to get the sentiment score for the tweet well as a sentiment score for the tweet environment 
 3. Generate model and prediction by running regression_models.ipynb
