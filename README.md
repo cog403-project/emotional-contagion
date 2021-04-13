@@ -8,7 +8,7 @@ The aim of this project is to determine if emotional contagion is a predictable 
 For a full explanation of this project, see [here]() ** Add link to paper PDF
 
 ## Included Data
-The data used in this project was gathered from [Twitter](https://developer.twitter.com/en/docs/twitter-api) and analyzed using [SentiStrength](http://sentistrength.wlv.ac.uk/) for overall sentiment strengths.
+The data used in this project was gathered from [Twitter](https://developer.twitter.com/en/docs/twitter-api) and analyzed using [SentiStrength](http://sentistrength.wlv.ac.uk/) for overall sentiment strengths.  Training of the model can be done with data found in the data directory.
 
 
 ## Dependencies
