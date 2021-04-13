@@ -12,10 +12,10 @@ The data used in this project was gathered from [Twitter](https://developer.twit
 
 ## Dependencies
 
-tweepy
-matplotlib.pyplot
-numpy
-scipy 
+tweepy, 
+matplotlib.pyplot, 
+numpy, 
+scipy,  
 sklearn
 
 ## Running
