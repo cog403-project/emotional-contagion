@@ -20,6 +20,13 @@ sklearn
 
 ## Running
 
+Data contains all the data necessary to train the model and test the model.
+Helper contains all the functions necessary to scrap data from Twitter for the training and testing dataset.  (If you want to do the analysis on a different set of tweets with different users).
+Model contains the Jupyter notebook used to generate the model and test the predictive accuracy of the model
+
+If you want to get a new training and testing dataset:
 1. Run get_tweet.py to get all the tweets that we need to do the analysis
 2. Run sentiment.py to get the sentiment score for the tweet well as a sentiment score for the tweet environment 
-3. Generate model and prediction by running regression_models.ipynb
+Otherwise:
+3. Get training/testing dataset from data
+4. Generate model and prediction by running regression_models.ipynb
