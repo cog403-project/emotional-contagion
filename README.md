@@ -29,5 +29,7 @@ If you want to get a new training and testing dataset:
 2. Run sentiment.py to get the sentiment score for the tweet well as a sentiment score for the tweet environment 
 
 Otherwise:
+
 3. Get training/testing dataset from data (Training Dataset- Sentiment.zip, Testing Dataset- Sentiment.zip)
 4. Generate model and prediction by running regression_models.ipynb
+5. 
