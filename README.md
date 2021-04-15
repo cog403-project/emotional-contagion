@@ -31,4 +31,5 @@ If you want to get a new training and testing dataset:
 Otherwise:
 
 3. Get training/testing dataset from data (Training Dataset- Sentiment.zip, Testing Dataset- Sentiment.zip)
-4. Generate model and prediction by running regression_models.ipynb
+4. Generate regression model and prediction by running regression_models.ipynb
+5. Generate prototype model and prediction by running prototype_exemplar_models.ipynb
