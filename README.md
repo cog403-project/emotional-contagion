@@ -1,4 +1,5 @@
 # Emotional Contagion
+Update (April 17, 2021): Models in the followup folder are finalized after the completion of the paper.  Models in the folder are not included in the results of the paper.  SVM model in the followup folder is discussed in the paper and the model is finalized and uploaded as a follow-up to the study.
 
 This repository contains the term project of Daniel Mau and Savhanna McLellan for COG403: Seminar in Cognitive Science , taken in winter 2021.
 
